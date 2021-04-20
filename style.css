@@ -1,0 +1,148 @@
+html,
+body {
+	height: 100%;
+	min-height: 100%;
+	padding: 0;
+	margin: 0;
+
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 15px;
+	background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+	width: 50%;
+	height: 90%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+
+.card {
+	display: flex;
+}
+
+.column {
+	padding: 50px 0;
+}
+
+.column-1 {
+	background-color: hsl(31, 77%, 52%);
+	border-radius: 10px 0 0 10px;
+}
+
+.column-2 {
+	background-color: hsl(184, 100%, 22%);
+}
+
+.column-3 {
+	background-color: hsl(179, 100%, 13%);
+	border-radius: 0 10px 10px 0;
+}
+
+.container-column {
+	width: 65%;
+	margin: 0 auto;
+}
+
+/*  */
+
+.title-column {
+	font-family: 'Big Shoulders Display', cursive;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 45px;
+	color: hsl(0, 0%, 95%);
+}
+
+.column p {
+	color: hsla(0, 0%, 100%, 0.75);
+	line-height: 1.8;
+	height: 200px;
+}
+
+.column a {
+	text-decoration: none;
+	background-color: hsl(0, 0%, 95%);
+	padding: 12px 25px;
+	border-radius: 50px;
+
+	border: 2px solid hsl(0, 0%, 95%);
+	transition: 0.1s;
+}
+
+a.color1 {
+	color: hsl(31, 77%, 52%);
+}
+
+a.color2 {
+	color: hsl(184, 100%, 22%);
+}
+
+a.color3 {
+	color: hsl(179, 100%, 13%);
+}
+
+.column a:hover {
+	background-color: transparent;
+	color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* ******** */
+
+@media screen and (max-width: 1550px) {
+	.container {
+		width: 60%;
+	}
+
+	.title-column {
+		font-size: 35px;
+	}
+
+	.column p {
+		font-size: 13px;
+	}
+
+	.column a {
+		padding: 10px 20px;
+		border-radius: 50px;
+		font-size: 12px;
+		border: 2px solid hsl(0, 0%, 95%);
+		transition: 0.1s;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.container {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.container {
+		width: 90%;
+		padding: 10px 0;
+	}
+
+	.card {
+		display: block;
+		height: 100%;
+	}
+
+	.column p {
+		height: auto;
+		margin-bottom: 30px;
+	}
+
+	.column-1 {
+		border-radius: 10px 10px 0 0;
+	}
+
+	.column-3 {
+		border-radius: 0 0 10px 10px;
+	}
+
+	.container-column {
+		width: 70%;
+	}
+}
