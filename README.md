@@ -5,7 +5,7 @@ Esta é uma solução para o [3-column preview card component challenge on Front
 
 ## Índice
 
-- [Visão geral](#overview)
+- [Visão geral](#Visão geral)
   - [O desafio](#the-challenge)
   - [Captura de tela](#screenshot)
   - [Links](#links)
@@ -17,7 +17,7 @@ Esta é uma solução para o [3-column preview card component challenge on Front
 - [Autor](#author)
 - [Agradecimentos](#acknowledgments)
 
-## Visão geral (#overview)
+## Visão geral
 
 ### O desafio
 
