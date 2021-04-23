@@ -18,6 +18,8 @@ body {
 	align-items: center;
 }
 
+/* Cards */
+
 .card {
 	display: flex;
 }
@@ -45,7 +47,7 @@ body {
 	margin: 0 auto;
 }
 
-/*  */
+/* Typography */
 
 .title-column {
 	font-family: 'Big Shoulders Display', cursive;
@@ -88,7 +90,7 @@ a.color3 {
 	color: hsla(0, 0%, 100%, 0.75);
 }
 
-/* ******** */
+/* Media Queries */
 
 @media screen and (max-width: 1550px) {
 	.container {
