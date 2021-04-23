@@ -17,8 +17,7 @@ Esta é uma solução para o [3-column preview card component challenge on Front
 - [Autor](#author)
 - [Agradecimentos](#acknowledgments)
 
-## Visão geral 
-# overview
+## Visão geral (#overview)
 
 ### O desafio
 
